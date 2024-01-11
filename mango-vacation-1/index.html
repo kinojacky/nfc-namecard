@@ -12,13 +12,13 @@
   <meta name=”robots” content="noindex, nofollow">
 
   <!-- Event SEO and Property -->
-  <meta name="keywords" content="mediacorp, namecard, enamecard, nfc, smart namecard, chinese digital" />
+  <meta name="keywords" content="namecard, enamecard, nfc, smart namecard" />
   <meta name="description" content="" />
 
-  <meta property="og:title" content="JackyKiu@Mediacorp" />
-  <meta property="og:description" content="Mediacorp is Singapore’s largest content creator and national media network, operating a suite of TV channels, radio stations and multiple digital platforms." />
-  <meta property="og:url" content="https://www.mediacorp.sg/" />
-  <meta property="og:image" content="imgs/mediacorp-logo.png" />
+  <meta property="og:title" content="Mango Vacations" />
+  <meta property="og:description" content="Mango Vacations" />
+  <meta property="og:url" content="https://mangovacations.com.my/" />
+  <meta property="og:image" content="imgs/logo-thumbnail.png" />
 
   <!-- Web App owner -->
   <meta name="copyright" content="Copyright (c) 2023, 広末堂. All Rights Reserved." />
@@ -27,7 +27,7 @@
   <meta name="generator" content="v0.1" />
 
   <!-- iOS web app icon set -->
-  <meta name="apple-mobile-web-app-title" content="Jacky Kiu" />
+  <meta name="apple-mobile-web-app-title" content="Mango Vacations" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <link rel="apple-touch-startup-image" href="favicons/apple-icon.png" />
@@ -43,7 +43,7 @@
   <!-- Default web icon set -->
   <link rel="icon shortcut" href="favicons/favicon.png" />
 
-  <title>Jacky Kiu @ Mediacorp Pte Ltd.</title>
+  <title>Tan Su Ping @ Mango Vacations</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -52,121 +52,54 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    function changeLanguage(language) {
-      // Set the selected language text to the dropdown button
-      $('#languageSymbol').text(language);
-      
-      // Hide all language divs
-      $('.s_chinese, .japanese, .english').hide();
-
-      // Show the selected language div
-      if (language == "english") {
-        $('#languageSymbol').text("Eng");
-        $('.' + language.toLowerCase()).show();
-        $('.t_chinese, .s_chinese, .japanese, .main_name').hide();
-      } else if (language == "japanese") {
-        $('#languageSymbol').text("日");
-        $('.' + language.toLowerCase()).show();
-        $('.t_chinese, .s_chinese, .main_name').hide();
-      } else if (language == "s_chinese") {
-        $('#languageSymbol').text("简");
-        $('.' + language.toLowerCase()).show();
-        $('.main_name').show();
-        $('.t_chinese, .japanese').hide();
-      } else {
-        $('#languageSymbol').text("繁");
-        $('.' + language.toLowerCase()).show();
-        $('.main_name').show();
-        $('.s_chinese, .japanese').hide();
-      }
-    }
-  </script>
 </head>
 
 <body class="d-flex flex-column h-100">
   <main class="flex-shrink-0">
     <div class="bg-fixed"></div>
 
-    <!-- Dropdown Translator -->
-    <div class="container-fluid">
-      <div class="row py-2">
-        <div class="col-12 text-end">
-          <div class="dropdown">
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <span id="languageSymbol"><i class="bi bi-translate"></i></span>
-            </button>
-            <ul class="dropdown-menu shadow">
-              <li class="text-center">
-                <a class="dropdown-item" href="#"  onclick="changeLanguage('t_chinese')">繁體</a>
-                </li>
-              <li class="text-center">
-                <a class="dropdown-item" href="#"  onclick="changeLanguage('s_chinese')">简体</a>
-                </li>
-              <li class="text-center">
-                <a class="dropdown-item" href="#"  onclick="changeLanguage('japanese')">日本語</a>
-                </li>
-              <li class="text-center">
-                <a class="dropdown-item" href="#"  onclick="changeLanguage('english')">English</a>
-                </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container pb-3">
       <div class="row justify-content-center">
         <div class="col-6 col-md-3">
-          <a href="https://www.mediacorp.com.sg" target="_blank"><img src="imgs/logo_mediacorp.png" alt="Mediacorp Logo" class="img-fluid rounded-circle"></a>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-4 col-md-2">
-          <a href="https://www.8world.com" target="_blank"><img src="imgs/logo_8world_news.png" alt="8world News Logo" class="img-fluid"></a>
-        </div>
-        <div class="col-4 col-md-2">
-          <a href="https://entlife.8world.com" target="_blank"><img src="imgs/logo_8world_entlife.png" alt="8world Entertainment and Life Magazine" class="img-fluid"></a>
-        </div>
-        <div class="col-4 col-md-2">
-          <a href="https://www.melisten.sg/radio/capital-958?al=1&ap=1&cid=8world_capital-958-radio_website_20062022_meLISTEN" target="_blank"><img src="imgs/logo_capital958.png" alt="Capital 958" class="img-fluid"></a>
+          <a href="https://mangovacations.com.my" target="_blank"><img src="imgs/logo-mango_vacations.png" alt="Brand Logo" class="img-fluid"></a>
         </div>
       </div>
 
       <div class="row text-center">
         <div class="col-12 py-3">
-          <h3 class="main_name fw-bold mb-0">Jacky Kiu 邱雲翔</h3>
-          <h3 class="english fw-bold mb-0" style="display: none;">Jacky Kiu</h3>
-          <h3 class="japanese fw-bold mb-0" style="display: none;">雲翔 邱 • ジャッキー</h3>
-          <h6 class="fw-bold mb-0">Senior Web Designer</h6>
-          <h6 class="t_chinese fw-bold">資深網頁設計師</h6>
-          <h6 class="s_chinese fw-bold" style="display: none;">高级网页设计师</h6>
-          <h6 class="japanese fw-bold" style="display: none;">シニアンウェブデザイナー</h6>
+          <h3 class="fw-bold mb-0">Tan Su Ping 陈素彬</h3>
+          <h6 class="fw-bold mb-0">Sales & Marketing Manager</h6>
+          <h6 class="fw-bold" style="display: none;">销售与市场经理</h6>
         </div>
         <div class="col-12 pb-3">
-          <span>Chinese Digital Content</span>
+          <span class="fw-bold">芒果旅游（马）有限公司</span>
           <br />
-          <span>Audience Growth Team</span>
+          <span class="fw-bold">Mango Vacations Sdn. Bhd.</span>
           <br />
-          <span class="t_chinese">中文數位內容與受眾擴展策略组</span>
-          <span class="s_chinese" style="display: none;">中文数码内容与受众拓展策略组</span>
-          <span class="japanese" style="display: none;">中国語デジタルコンテンツと<br class="d-block d-md-none"/>視聴者拡張戦略グループ</span>
+          No.78-01 (First Floor)
+          <br />
+          Jalan Sierra Perdana 4/1
+          <br />
+          Taman Sierra Perdana
+          <br />
+          81750 Masai, Johor.
         </div>
       </div>
 
       <div class="row justify-content-center text-center pb-3">
         <div class="col-auto">
           <div class="icon-btn">
-            <a href="tel:85313851" class="icon-hover"><i class="bi bi-telephone icon-large"></i></a>
+            <a href="tel:+60122142655" class="icon-hover"><i class="bi bi-telephone icon-large"></i></a>
           </div>
         </div>
         <div class="col-auto">
           <div class="icon-btn">
-            <a href="mailto:Jacky.Kiu@mediacorp.com.sg" class="icon-hover"><i class="bi bi-envelope icon-large"></i></a>
+            <a href="mailto:suping.tan@mangovacations.com.my" class="icon-hover"><i class="bi bi-envelope icon-large"></i></a>
           </div>
         </div>
         <div class="col-auto">
           <div class="icon-btn">
-            <a href="https://www.linkedin.com/in/yunsiang/" target="_blank" class="icon-hover"><i class="bi bi-linkedin icon-large"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="icon-hover"><i class="bi bi-facebook icon-large"></i></a>
           </div>
         </div>
         <div class="col-auto">
@@ -182,7 +115,7 @@
         <div class="col-10 col-md-4">
           <div class="collapse" id="scanForQRcode">
             <div class="card card-body text-center mb-4">
-              <a href="namecard/Jacky Kiu 邱雲翔.vcf" target="_blank"><img src="imgs/img_qr_vcf.png" alt="" class="img-fluid"></a>
+              <a href="#" target="_blank"><img src="" alt="QR-code Image" class="img-fluid"></a>
             </div>
           </div>
         </div>
@@ -190,12 +123,9 @@
 
       <div class="row justify-content-center">
         <div class="d-grid gap-2 col-10 col-md-4 mx-auto">
-          <a class="btn btn-primary rounded-pill btn-custom" href="namecard/Jacky Kiu 邱雲翔.vcf" role="button">
+          <a class="btn btn-primary rounded-pill btn-custom" href="#" role="button">
             <i class="bi bi-person-vcard icon-large"></i>
-            <span class="t_chinese">下載 電子名片</span>
-            <span class="s_chinese" style="display: none;">下载 电子名片</span>
-            <span class="japanese" style="display: none;">電子名刺をダウンロード</span>
-            <span class="english" style="display: none;">Download vCard</span>
+            <span>Download vCard</span>
           </a>
         </div>
       </div>

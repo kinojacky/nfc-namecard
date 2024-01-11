@@ -1,6 +1,6 @@
 {
-  "short_name": "Jacky@Mediacorp",
-  "name": "Jacky@Mediacorp",
+  "short_name": "Mango Vacations",
+  "name": "Mango Vacations",
   "icons": [
     {
       "src": "favicons/icons-192.png",
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "mediacorp-name-card/index.html?source=pwa",
+  "start_url": "/index.html?source=pwa",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
