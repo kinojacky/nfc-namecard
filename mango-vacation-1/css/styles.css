@@ -1,0 +1,97 @@
+/*   ฅ^•ﻌ•^ฅ   */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap');
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans SC', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #142a60;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.bg-fixed {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imgs/bg_main_mobile.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+@media (min-width: 576px) {
+  .bg-fixed {
+    background-image: url(../imgs/bg_main_desktop.png);
+  }
+}
+
+.btn-primary {
+  --bs-btn-bg: #142a60;
+  --bs-btn-border-color: #142a60;
+  --bs-btn-hover-bg: #455787;
+  --bs-btn-hover-border-color: #455787;
+}
+
+.btn-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-custom i {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.icon-large {
+  font-size: 2rem;
+}
+
+.icon-btn {
+  position: relative;
+  top: 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  border: 2px solid #142a60;
+  border-radius: 25%;
+  transition: top ease 200ms;
+}
+
+@media (min-width: 576px) {
+  .icon-btn:hover {
+    top: -10px;
+  }
+}
+
+.icon-btn > a {
+  color: #142a60;
+}
+
+.icon-btn > i {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+}
+
+footer .copyright-text {
+  color: #888888;
+  font-size: 0.5rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

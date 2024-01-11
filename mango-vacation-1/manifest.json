@@ -1,0 +1,21 @@
+{
+  "short_name": "Jacky@Mediacorp",
+  "name": "Jacky@Mediacorp",
+  "icons": [
+    {
+      "src": "favicons/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicons/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "mediacorp-name-card/index.html?source=pwa",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#142a60"
+}
