@@ -9,6 +9,7 @@ EMAIL;type=INTERNET;type=pref:suping.tan@mangovacations.com.my
 TEL;type=WORK;type=FAX;type=pref:+6073808195
 TEL;type=WORK;type=VOICE:+6073860128
 TEL;type=CELL;type=VOICE:+60122142655
+ADR;CHARSET=UTF-8;TYPE=WORK:;;No.78-01 (First Floor) Jalan Sierra Perdana 4/1 Taman Sierra Perdana 81750 Masai\, Johor. ;;;81750;Malaysia
 item1.URL;type=pref:https://mangovacations.com.my/
 item1.X-ABLabel:_$!<HomePage>!$_
 PHOTO;ENCODING=b:iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs
